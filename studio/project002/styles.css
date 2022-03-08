@@ -1,0 +1,145 @@
+
+    body{
+        width: fit-content;
+        height: 20000px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgb(250, 154, 44) 20%,rgb(255, 224, 48)  40%,rgb(141, 194, 80) 50%, rgb(24, 97, 255) 60%, rgb(104, 169, 230) 70%,rgb(152, 149, 219) 75%,rgb(241, 71, 151) 100%);
+        }
+    @font-face {
+        font-family: magic;
+        src: url(fonts/magic-romance.ttf);
+    }
+    @font-face {
+        font-family: master;
+        src: url(fonts/Masterday.otf);
+
+    }
+    @font-face {
+        font-family: suika;
+        src: url(fonts/Suika-DEMO.otf);
+    }
+    p{
+        font-family: suika;
+        color:antiquewhite;
+        text-align: center;
+
+    }
+    .myDiv1{
+        text-align: center;
+        font-size: 280px;
+        letter-spacing: 30px;
+        font-family: suika;
+    }
+    .myDiv2{
+        text-align: center;
+        font-size: 250px;
+        letter-spacing: 15px;
+        font-family: suika;
+        
+    }
+    .myDiv3{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        ;
+    }
+    .myDiv4{
+        text-align:center;
+        font-size: 125px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:rgb(250, 235, 215);
+    }
+    .myDiv5{
+        text-align:center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }
+    .myDiv6{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv7{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family:suika;
+        color:antiquewhite;
+    }.myDiv8{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv9{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv10{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv11{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv12{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv13{
+        text-align: center;
+        font-size: 175px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv14{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv15{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv16{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }.myDiv17{
+        text-align: center;
+        font-size: 150px;
+        letter-spacing: 20px;
+        font-family: suika;
+        color:antiquewhite;
+    }
+    .colorsDiv{     text-align: center;
+        font-size: 300px;
+        letter-spacing: 20px;
+        font-family:suika;
+        color:rgb(188, 138, 245);
+    }
+    .woahDiv {
+        font-size: 250px;
+        letter-spacing: 10px;
+        font-family:suika;
+        color:antiquewhite;
+    }
