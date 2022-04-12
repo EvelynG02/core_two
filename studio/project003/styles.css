@@ -9,15 +9,21 @@
     padding: 0;
   }
   
-  @font-face {
-    font-family: magic;
-    src: url(fonts/magic-romance.ttf);
-}
+  
+
+    @font-face {
+        font-family: suika;
+        src: url(fonts/Suika-DEMO.otf);
+    }
+
   body {
-      background-image: url(https://giphy.com/gifs/mushrooms-growing-gO48yi3X6WCHe);
-      background-position: center;
-  background-size: cover;
-    font-family: magic;
+    background-image: url(https://www.gifbin.com/bin/112013/1389122202_mushrooms_growing_timelapse.webm);
+    background-size: cover;
+   
+    height: 100vh;
+    padding:0;
+    margin:0;
+    font-family: suika;
     letter-spacing: -0.025rem;
     
     
