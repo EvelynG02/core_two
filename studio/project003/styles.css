@@ -9,12 +9,17 @@
     padding: 0;
   }
   
-  
+  @font-face {
+    font-family: magic;
+    src: url(fonts/magic-romance.ttf);
+}
   body {
       background-image: url(https://giphy.com/gifs/mushrooms-growing-gO48yi3X6WCHe);
+      background-position: center;
   background-size: cover;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: magic;
     letter-spacing: -0.025rem;
+    
     
   }
   
