@@ -7,6 +7,8 @@
   body {
     margin: 0;
     padding: 0;
+    font-family: etnyca;
+    color: #666;
   }
   
   
@@ -15,19 +17,23 @@
         font-family: suika;
         src: url(fonts/Suika-DEMO.otf);
     }
+    @font-face {
+        font-family: etnyca;
+        src: url(fonts/etnyca-font.zip);
+    }
 
-  body {
-    background-image: url(https://www.gifbin.com/bin/112013/1389122202_mushrooms_growing_timelapse.webm);
-    background-size: cover;
+  
    
-    height: 100vh;
-    padding:0;
-    margin:0;
-    font-family: suika;
-    letter-spacing: -0.025rem;
+        body {
+            background-image:url(images/growing-mushrooms-timelapse-3.gif);
+            background-size:100%;
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+            height:100%;
+            width:100%;
+        }
     
-    
-  }
+  
   
   h1 {
     margin: 0;
