@@ -7,11 +7,15 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: karl;
+    font-family: suika;
     color: rgb(255, 255, 255);
+    text-align: center;
   }
   
-  
+  @font-face {
+      font-family: margic;
+      src: url(fonts/margic-magic-of-typeface.zip);
+  }
 @font-face {
     font-family: karl;
     src: url(fonts/karltown.zip);
