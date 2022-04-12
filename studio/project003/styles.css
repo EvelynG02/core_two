@@ -7,12 +7,15 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: etnyca;
-    color: #666;
+    font-family: karl;
+    color: rgb(255, 255, 255);
   }
   
   
-
+@font-face {
+    font-family: karl;
+    src: url(fonts/karltown.zip);
+}
     @font-face {
         font-family: suika;
         src: url(fonts/Suika-DEMO.otf);
@@ -21,13 +24,22 @@
         font-family: etnyca;
         src: url(fonts/etnyca-font.zip);
     }
+    @font-face {
+        font-family: magic;
+        src: url(fonts/magic-romance.ttf);
+    }
+    @font-face {
+        font-family: master;
+        src: url(fonts/Masterday.otf);
+    }
+
 
   
    
         body {
             background-image:url(images/growing-mushrooms-timelapse-3.gif);
             background-size:100%;
-            background-repeat: repeat-y;
+            
             background-attachment: fixed;
             height:100%;
             width:100%;
@@ -40,7 +52,7 @@
     margin-bottom: 50px;
     line-height: 1;
     letter-spacing: -0.025rem;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid rgb(255, 255, 255);
   }
   
   .container {
