@@ -9,9 +9,13 @@
     padding: 0;
   }
   
+  
   body {
+      background-image: url(https://giphy.com/gifs/mushrooms-growing-gO48yi3X6WCHe);
+  background-size: cover;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     letter-spacing: -0.025rem;
+    
   }
   
   h1 {
