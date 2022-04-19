@@ -1,39 +1,38 @@
-// more advanced version of Airtable demo. Comments added below for the additions.
-// See the demo video recording posted on the class website for walkthrough
-
-fetch('https://api.airtable.com/v0/appFOm7DDpMYM90u9/albums', {
+// basic version from class
+// first, we fetch our data from Airtable
+fetch('https://api.airtable.com/v0/app6gezkzOPuEsZfV/mushrooms', {
   headers: {
-    Authorization: 'Bearer keyxq87yw8w7CglcJ',
+    Authorization: 'Bearer keymaRHjmjRexNvgS', // this is your API key, starting with 'key...' found in your Airtable account
   },
 })
-  .then(response => response.json())
+  .then(res => res.json()) // tells JS to expect data in json format
   .then(data => {
-    console.log(data);
+    // all your code should go inside here
 
-    const albumsContainer = document.querySelector('.albums-container');
+    console.log(data); // first, log out your data. Explore it in the browser console.
 
-    data.records
-      .filter(album => {
-        // filter the data down to only albums marked true for "has_listened_fully" in my Airtable base
-        return album.fields.has_listened_fully;
-      })
-      .sort((a, b) => {
-        // sorting by earlier "release_year"
-        return a.fields.release_year - b.fields.release_year;
-      })
-      .slice(0, 5) // only show up to five albums
-      .forEach(album => {
-        console.log(album);
+    const mushroomsContainer = document.querySelector('.mushrooms-container'); // tell JS about the div we added to our html file so we can put content inside it
 
-        // same as basic example with the addition of the "top-band" div which adds a small data visualizaiton element. It makes the length of the top bar in the card related to the album rating I gave it in Airtable
-        albumsContainer.innerHTML += `
-          <div class="album">
-            <div class="top-band" style="width: ${(album.fields.my_rating / 5) * 100}%"></div>
-            <h5>${album.fields.release_year}</h5>  
-            <h3>${album.fields.title}</h3>
-            <h4>${album.fields.artist}</h4>
-            <img src="${album.fields.album_cover[0].thumbnails.large.url}" width'200' />
-          </div>
-      `;
-      });
+    // loop over each record (row) of our Airtable data
+    data.records.forEach(mushrooms => {
+      console.log(mushrooms); // look in the console at each album to see what fields we can access (these are your own table headers from Airtable)
+
+      // now we add html to our albumsContainer div
+      // this is where we take our data from Airtable and put it in our html
+      // think of this chunk of HTML as a component template for each entry in our database
+      // note the backticks `` below. This allows us to add html + js together using ${field} in a single block of code
+      mushroomsContainer.innerHTML += `
+        <div class="mushrooms">
+        <h7>${mushrooms.fields.height}</h7>
+        <h6>${mushrooms.fields.season}</h6>
+          <h5>${mushrooms.fields.type}</h5>  
+          <h3>${mushrooms.fields.name}</h3>
+          <h4>${mushrooms.fields.health_benefits}</h4>
+          <img src="${mushrooms.fields.image[0].thumbnails.large.url}" width='200'/>
+        </div>
+        `;
+
+      // that's it!
+      // Try adding or removing items in your Airtable base and see your website update on refresh
+    });
   });
