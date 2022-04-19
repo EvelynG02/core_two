@@ -11,6 +11,12 @@
     color: rgb(255, 255, 255);
     text-align: center;
   }
+  p {
+    font-family: suika;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+  }
   
   @font-face {
       font-family: margic;
