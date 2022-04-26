@@ -102,17 +102,12 @@ function generateContent() {
       // eveything in this forEach is the same as your project 3 Airtable examples
       content.innerHTML += `
       <div class="mushroom">
-  
-          
           <h3>${mushroom.fields.name}</h3>
           <img src="${mushroom.fields.image[0].thumbnails.large.url}" width='250'/>
-          
          <h4>${mushroom.fields.health_benefits}</h4>
          <h7>${mushroom.fields.height}</h7>
          <h6>${mushroom.fields.season}</h6>
           <h5>${mushroom.fields.type}</h5> 
-
-
         </div>
     `;
     });
