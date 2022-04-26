@@ -7,13 +7,13 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: magic;
+    font-family: migaela;
     color: rgba(255, 255, 255, 0.921);
     text-align: center;
     
   }
   p {
-    font-family: suika;
+    font-family: migaela;
     color: rgb(255, 255, 255);
     text-align: center;
 
@@ -26,7 +26,12 @@
     height:100%;
     width:100%;
 }
-  
+@font-face {
+  font-family: migaela;
+  src: url(fonts/Migaela\ RUS.otf);
+}  
+
+
   @font-face {
       font-family: margic;
       src: url(fonts/margic-magic-of-typeface.zip);
