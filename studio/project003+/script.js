@@ -57,7 +57,7 @@ function generateContent() {
       // eveything in this forEach is the same as your project 3 Airtable examples
       content.innerHTML += `
       
-      <div class="mushroom">
+      <div class="mushroom-container">
   
           
       <h3>${mushroom.fields.name}</h3>
@@ -87,7 +87,7 @@ generateContent();
 
     console.log(data); // first, log out your data. Explore it in the browser console.
 
-    const mushroomsContainer = document.querySelector('.mushroom-container'); // tell JS about the div we added to our html file so we can put content inside it
+    const mushroomContainer = document.querySelector('.mushroom-container'); // tell JS about the div we added to our html file so we can put content inside it
 
     // loop over each record (row) of our Airtable data
     data.records.forEach(mushroom => {
@@ -97,8 +97,8 @@ generateContent();
       // this is where we take our data from Airtable and put it in our html
       // think of this chunk of HTML as a component template for each entry in our database
       // note the backticks `` below. This allows us to add html + js together using ${field} in a single block of code
-      mushroomsContainer.innerHTML += `
-        <div class="mushroom">
+      mushroomContainer.innerHTML += `
+        <div class="mushroom-container">
   
           
           <h3>${mushroom.fields.name}</h3>
