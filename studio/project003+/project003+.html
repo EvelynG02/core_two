@@ -11,7 +11,22 @@
         <p> Mushroom Guide</p>
       <h1>SPORE TASTE</h1>
       
-      
+      <div class="elements">
+        <div class="dropdown-container">
+          <label for="my-select">Filter by mushroom type:</label>
+          <select name="my-select" id="select" onchange="handleDropdown()">
+            <option selected value="all">All</option>
+            <option value="Parasitic">Parasitic</option>
+            <option value="Saprotrophic">Saprotrophic</option>
+            <option value="Mycorrhizal">Mycorrhizal</option>
+            <option value="Endophytic">Endophytic</option>
+          </select>
+        </div>
+        <div class="range-slider-container">
+          <label>Filter by height</label>
+          <input type="range" min="0" max="50" step="1" value="50" oninput="handleSlider()" />
+          <span class="value">50"</span>
+        </div>
       <div class="mushroom-container">
         <!-- add content from Airtable here via javascript -->
       </div>
