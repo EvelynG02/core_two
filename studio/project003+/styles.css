@@ -7,13 +7,13 @@
   body {
     margin: 0;
     padding: 0;
-    font-family:matt;
+    font-family: matt;
     color: rgba(255, 255, 255, 0.921);
     text-align: center;
     
   }
   p {
-    font-family:matt;
+    font-family: matt;
     color: rgb(255, 255, 255);
     text-align: center;
 
@@ -21,24 +21,15 @@
   body {
     background-image:url(images/b7c09495dff189f450e0466b0dfb2a22.jpg);
     background-size:100%;
+    
     background-attachment: fixed;
     height:100%;
     width:100%;
 }
-
-@font-face {
-  font-family: matt;
-  src: url(fonts/MattireDemo.otf);
-} 
-@font-face {
-  font-family: migaela;
-  src: url(fonts/Migaela\ RUS.otf);
-}  
-
-
+  
   @font-face {
-      font-family: margic;
-      src: url(fonts/margic-magic-of-typeface.zip);
+      font-family: matt;
+      src: url(fonts/MattireDemo.otf);
   }
 @font-face {
     font-family: karl;
@@ -72,7 +63,7 @@
     margin: 0;
     margin-bottom: 50px;
     line-height: 1;
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.05rem;
     border-bottom: 2px solid rgb(255, 255, 255);
   }
   
@@ -93,7 +84,7 @@
   }
   
   .mushroom {
-    border: 2px solid #e7e7e7;
+    border: 1px solid #e7e7e7;
     box-shadow: 0 4px 8px 0 hsla(0, 0%, 45%, 0.3);
     width: 200px;
     padding: 10px;
@@ -104,13 +95,13 @@
   .top-mushroom {
     position: absolute;
     top: 0;
-    left: -10;
+    left: 0;
     width: 100%;
     height: 3px;
     background: rgb(255, 255, 255);
   }
   
-  .msuhroom h3,
+  .mushroom h3,
   .mushroom h4,
   .mushroom h5 {
     margin: 0;
@@ -127,6 +118,6 @@
   .mushroom img {
     width: 100%;
     height: 160px;
-    object-fit: cover;
+    object-fit: fill;
     object-position: top left;
   }
