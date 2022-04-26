@@ -1,5 +1,5 @@
 body {
-    background-image:url(images/mushroooooomsss.jpg);
+    background-image:url(images/amanitalarge.jpg);
     background-size:100%;
     
     background-attachment: fixed;
@@ -13,4 +13,7 @@ body {
   }
   h1 {
       font-family: matt;
+      color: rgb(255, 255, 255);
+      text-align: center;
+  
   }
