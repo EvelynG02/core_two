@@ -7,13 +7,13 @@
   body {
     margin: 0;
     padding: 0;
-    font-family:bloom;
+    font-family:matt;
     color: rgba(255, 255, 255, 0.921);
     text-align: center;
     
   }
   p {
-    font-family:bloom;
+    font-family:matt;
     color: rgb(255, 255, 255);
     text-align: center;
 
@@ -27,8 +27,8 @@
 }
 
 @font-face {
-  font-family: bloom;
-  src: url(fonts/BASE_BLOOM_Demo.otf);
+  font-family: matt;
+  src: url(fonts/MattireDemo.otf);
 } 
 @font-face {
   font-family: migaela;
