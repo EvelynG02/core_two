@@ -1,0 +1,16 @@
+body {
+    background-image:url(images/mushroooooomsss.jpg);
+    background-size:100%;
+    
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+  
+  @font-face {
+      font-family: matt;
+      src: url(fonts/MattireDemo.otf);
+  }
+  h1 {
+      font-family: matt;
+  }
