@@ -27,7 +27,6 @@ fetch('https://api.airtable.com/v0/app6gezkzOPuEsZfV/mushroom', {
           
           <h3>${mushroom.fields.name}</h3>
           <img src="${mushroom.fields.image[0].thumbnails.large.url}" width='250'/>
-          
          <h4>${mushroom.fields.health_benefits}</h4>
          <h7>${mushroom.fields.height}</h7>
          <h6>${mushroom.fields.season}</h6>
