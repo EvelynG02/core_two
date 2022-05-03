@@ -1,5 +1,5 @@
-
-
+// basic version from class
+// first, we fetch our data from Airtable
 fetch('https://api.airtable.com/v0/app6gezkzOPuEsZfV/mushroom', {
   headers: {
     Authorization: 'Bearer keymaRHjmjRexNvgS', // this is your API key, starting with 'key...' found in your Airtable account
@@ -27,11 +27,11 @@ fetch('https://api.airtable.com/v0/app6gezkzOPuEsZfV/mushroom', {
           
           <h3>${mushroom.fields.name}</h3>
           <img src="${mushroom.fields.image[0].thumbnails.large.url}" width='250'/>
+          
          <h4>${mushroom.fields.health_benefits}</h4>
          <h7>${mushroom.fields.height}</h7>
          <h6>${mushroom.fields.season}</h6>
           <h5>${mushroom.fields.type}</h5> 
-          <h8>${mushroom.fields.color}</h8>
 
 
         </div>
