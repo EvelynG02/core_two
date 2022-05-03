@@ -60,11 +60,15 @@
   
   
   h1 {
-    margin: 0;
+    margin: 3;
     margin-bottom: 50px;
     line-height: 1;
     letter-spacing: 0.05rem;
     border-bottom: 2px solid rgb(255, 255, 255);
+  }
+
+  h3 {
+    text-transform: uppercase;
   }
      
   .mushroom-container {
@@ -77,10 +81,11 @@
   }
   
   .mushroom {
-     width: 200px;
+    width: 200px;
     padding: 10px;
     border-radius: 2px;
     position: relative;
+    text-align: left;;
   }
   
   
@@ -94,19 +99,8 @@
     background: rgb(255, 255, 255);
   }
   
-  .mushroom h3,
-  .mushroom h4,
-  .mushroom h5 {
-    margin: 0;
-  }
   
-  .mushroom h4 {
-    font-weight: 400;
-    margin: 0 0 10px 0;
-  }
-  .mushroom h5 {
-    color: rgb(255, 255, 255);
-  }
+  
   
   .mushroom img {
     width: 100%;

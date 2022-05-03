@@ -27,12 +27,11 @@ fetch('https://api.airtable.com/v0/app6gezkzOPuEsZfV/mushroom', {
           
           <h3>${mushroom.fields.name}</h3>
           <img src="${mushroom.fields.image[0].thumbnails.large.url}" width='250'/>
-          
-         <h4>${mushroom.fields.health_benefits}</h4>
-         <h8>${mushroom.fields.color}</h8>
-         <h7>${mushroom.fields.height}</h7>
-         <h6>${mushroom.fields.season}</h6>
-          <h5>${mushroom.fields.type}</h5> 
+         <p>${mushroom.fields.health_benefits}</p>
+         <p>${mushroom.fields.color}</p>
+         <p>${mushroom.fields.height}</p>
+         <p>${mushroom.fields.season}</p>
+         <p>${mushroom.fields.type}</p> 
 
 
         </div>
