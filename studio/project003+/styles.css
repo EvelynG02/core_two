@@ -10,6 +10,7 @@
     font-family: matt;
     color: rgba(255, 255, 255);
     text-align: center;
+    overflow: hidden;
     
   }
   p {
@@ -29,7 +30,7 @@
   
   @font-face {
       font-family: matt;
-      src: url(fonts/MattireDemo.otf);
+      src: url(fonts/Prata-Regular.ttf);
   }
 @font-face {
     font-family: karl;
@@ -60,15 +61,17 @@
   
   
   h1 {
-    margin: 0px;
+    margin: 20px;
     margin-bottom: -20px;
     line-height: 1;
     letter-spacing: 0.05rem;
-    font-size: 40px;
+    font-size: 55px;
+    font-family: matt;
   }
 
   h2 {
-    border-bottom: 2px solid rgb(255, 255, 255);
+    
+    font-family: Arial, Helvetica, sans-serif;
     
   }
 
@@ -96,7 +99,7 @@
   
   .mushroom {
     width: 200px;
-    padding: 10px;
+    padding: 50px;
     border-radius: 2px;
     position: relative;
     text-align: center;
@@ -118,7 +121,14 @@
   
   .mushroom img {
     width: 100%;
-    height: 160px;
     object-fit: fill;
     object-position: top left;
+  }
+
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mushroom-container::-webkit-scrollbar{
+    display: none;
   }
