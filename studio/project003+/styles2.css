@@ -1,44 +1,62 @@
 body {
     background-image:url(images/growing-mushrooms-timelapse-3.gif);
     background-size:100%;
-    
+    overflow: hidden;
     background-attachment: scroll;
     height:100%;
     width:100%;
-    font-family: matt;
+    font-family: Qaligo;
     color: rgb(255, 255, 255);
     text-align: center;
 }
   
+.nav{
+  display: flex;
+font-family: Qaligo;
+font-size: 0.8em;
+padding: 3em;
+align-items: right;
+justify-content: right;
+}
+
 
 .container{
   background-color: white;
     
 }
+
+.title{
+  padding-top: 15%;
+}
   @font-face {
-      font-family: matt;
-      src: url(fonts/Prata-Regular.ttf);
+      font-family: Qaligo;
+      src: url(fonts/Qaligo.ttf);
   }
   h1 {
-      padding-top: 25px;
-      font-family: matt;
+      font-family: Qaligo;
       color: rgb(255, 255, 255);
       text-align: center;
       font-size: 5em  ;
+      text-shadow: 2px 2px black;
       text-decoration-color: white;
   }
 
+  
+
  h2 {
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: Qaligo;
     font-size: 30px;
       }
   
 
 
 
+
       a{
-          font-size: 40px;
-      }
+          font-size: 1em;
+
+
+        }
       /* unvisited link */
 a:link {
     color: rgb(255, 255, 255);
@@ -47,22 +65,20 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: rgb(255, 0, 0);
+    color: white;
     text-decoration: none;
   }
   
   /* mouse over link */
   a:hover {
-    color: rgb(253, 0, 0);
-    text-decoration: underline;
-    text-decoration-color: white;
+    color: white;
   }
   
   /* selected link */
   a:active {
-    color: rgb(170, 4, 4);
+    color: white;
     text-decoration: underline;
-    text-decoration-color:
+
   }
   
   p {
@@ -71,4 +87,11 @@ a:link {
     text-align: center;
 
   }
+
+.button1{
+  height: 1em;
+  width: 5em;
+  background-color: none;
+  border: white 1px;
+}
 

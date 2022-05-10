@@ -1,0 +1,53 @@
+body {
+  background-size:100%;
+  overflow: hidden;
+  height:100%;
+  width:100%;
+  font-family: Qaligo;
+  background-color: #0f1315;
+  text-align: center;
+}
+
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: Qaligo;
+  src: url(fonts/Qaligo.ttf);
+}
+
+.nav{
+    display: flex;
+  font-family: Qaligo;
+  color:white;
+  font-size: 0.8em;
+  padding: 5em;
+  align-items: left;
+  justify-content: left;
+  }
+
+  a{
+    color: #cf9461;
+    text-decoration: none;
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: #f1f1f1;
+  }
+
+
+  
